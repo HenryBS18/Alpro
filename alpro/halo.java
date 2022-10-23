@@ -1,4 +1,4 @@
-package Alpro;
+package alpro;
 import java.util.Scanner;
 
 public class halo {
@@ -7,11 +7,9 @@ public class halo {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-
         //Declare
         String nama, kelamin, menikah;
     
-
         //Input
         try {
         System.out.print("Nama Anda : ");
@@ -26,7 +24,7 @@ public class halo {
             scan.close();
         }
 
-        //Condition
+        //Condition & Output
         if (kelamin.equalsIgnoreCase("L") && menikah.equalsIgnoreCase("Y")) {
             System.out.println("Hello, Mr. " + nama);
         }

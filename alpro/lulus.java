@@ -1,4 +1,4 @@
-package Alpro;
+package alpro;
 import java.util.Scanner;
 
 public class lulus {
@@ -7,11 +7,9 @@ public class lulus {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-
         //Declare
         int nilai;
         
-
         //Input
         try {
         System.out.print("Masukkan Nilai Anda : ");
@@ -20,8 +18,7 @@ public class lulus {
             scan.close();
         }
 
-
-        //Condition
+        //Condition & Output
         if (nilai >= 75) {
             System.out.print("Lulus");
         }

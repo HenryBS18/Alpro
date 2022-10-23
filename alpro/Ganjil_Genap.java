@@ -1,4 +1,4 @@
-package Alpro;
+package alpro;
 import java.util.Scanner;
 
 public class Ganjil_Genap {
@@ -7,12 +7,10 @@ public class Ganjil_Genap {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-        
         //Declare
         int i;
 
-
-        //input
+        //Input
         try {
             System.out.print("Masukkan Angka : ");
             i = scan.nextInt();
@@ -21,8 +19,7 @@ public class Ganjil_Genap {
             scan.close();
         }
         
-
-        //Condition
+        //Condition & Output
         if (i % 2 == 0) {
             System.out.println("Genap");
         } 

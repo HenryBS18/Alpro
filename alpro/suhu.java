@@ -1,4 +1,4 @@
-package Alpro;
+package alpro;
 import java.util.Scanner;
 
 public class suhu {
@@ -7,19 +7,16 @@ public class suhu {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-
         //Declare
         int i;
 
         double celcius, celcius2, celcius3; 
         double reamur, fahrenheit, kelvin;
 
-
         //Main
         System.out.println("Hai selamat datang");
         System.out.println("");
         
-
         //Decision
         System.out.println("Konversi Celcius ke : ");
         
@@ -32,8 +29,7 @@ public class suhu {
         try {
         i = scan.nextInt();
         
-        
-        //condition, input, formula, output
+        //Condition, Input, Formula, Output
         if (i == 1) {
             System.out.print("Masukkan Celcius : ");
             celcius = scan.nextDouble();

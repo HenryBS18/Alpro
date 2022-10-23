@@ -1,4 +1,4 @@
-package Alpro;
+package alpro;
 import java.util.Scanner;
 
 public class gaji {
@@ -7,11 +7,9 @@ public class gaji {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-
         //Declare
         int jamKerja, jamKerjaLebih;
         double gajiKotor, pajak, gajiBersih;
-
 
         //Input
         try {
@@ -21,7 +19,7 @@ public class gaji {
             scan.close();
         }
 
-        //Condition
+        //Condition & Output
         //Gaji Kotor
         if (jamKerja > 40) {
             jamKerjaLebih = jamKerja-40;
